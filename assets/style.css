@@ -1,0 +1,344 @@
+:root {
+    --black: #292733;
+    --white: #ffffff; 
+    --red: #C20502;
+    --text: 'Poppins';
+    --head: 'Roboto Slab';
+}
+html,body{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6,
+p{
+    margin: 0px;
+    padding: 0px;
+}
+.row-1440{
+    width: 1440px;
+}
+.row-fw{
+    width: 100%;
+}
+.text--center{
+    text-align: center;
+}
+.text--left{
+    text-align: left;
+}
+.text--right{
+    text-align: right;
+}
+a{
+    text-decoration: none;
+}
+.header__nav{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+header{
+    min-height: 114px;
+    background-color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__container-row{
+    display: flex;
+}
+.header__container .header__container-col {
+    display: flex;
+    justify-content: center;
+}
+.container--col-1,
+.container--col-3{
+    width: 15%;
+}
+.container--col-2{
+    width: 70%;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+.nav--link li{
+    margin: 0px 16px;
+}
+.nav--icon li{
+    margin: 0px 8px;
+}
+.nav--link li a{
+    color: var(--white);
+    font-size: 16px;
+    font-family: var(--text);
+    font-weight: 500;
+}
+.main__banner{
+    height: 741px;
+    background-image: url('img/Rectangle-2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-right: 128px;
+    display: flex;
+    justify-content: flex-end;
+}
+.main__banner-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.banner-row{
+    display: flex;
+}
+.banner-row h2{
+    font-family: var(--head);
+    color: var(--black);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 105.5%;
+    margin-bottom: 17px;
+}
+.banner-row p{
+    font-family: var(--text);
+    width: 516px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);
+}
+.redbar{
+    margin-top: 195px;
+    height: 5px;
+    width: 158px;
+    display: flex;
+}
+.redbar-col1{
+    height: 100%;
+    width: 30%;
+    background-color: var(--red);
+}
+.redbar-col2{
+    height: 100%;
+    width: 70%;
+    background-color: var(--red);
+    opacity: 50%;
+}
+.info-col{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info__banner{
+    display: flex;
+    height: 303px;
+    background-color: var(--red);
+    padding: 50px 20px;
+    justify-content: center;;
+}
+.info-col h3{
+    margin-top: 15px;
+    font-family: var(--head);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 118.5%;
+    text-align: center;
+    color: var(--white);
+    width: 90%;
+}
+.main__banner-row{
+    width: 898px;
+}
+.section-3{
+    height: 501px;
+}
+.section-3-row{
+    display: flex;
+    height: 100%;
+}
+.section-3-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-3-col1{
+    width: 45%;
+    background-image: url('img/Rectangle 9.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section-3-col1 img{
+    width: 340px;
+    height: 299px;
+}
+.section-3-col2{
+    width: 55%;
+    background-image: url('img/Rectangle 10.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section-3-col2-innercol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-3-col2-innercol h3{
+    font-family: var(--head);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;    
+    text-align: center;    
+    color: var(--white);
+}
+.section-3-col2-innercol button{
+    padding: 20px 40px;
+    background-color: var(--red);
+    border: unset;
+    font-family: var(--text);
+    color: var(--white);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 11px;
+}
+.section-4{
+    display: flex;
+    justify-content: center;
+    height: 591px;
+    background-image: url('img/Rectangle 83.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section-4-row{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-4-col{
+    width: 892px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-4-col h2{
+    font-family: var(--head);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 105.5%;    
+    color: var(--white);
+}
+.section-4-col p{
+    margin-top: 20px;
+    font-family: var(--text);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white);
+    
+}
+.section-4-col button{
+    margin-top: 20px;
+    padding: 20px 40px;
+    font-family: var(--text);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--red);
+    border: unset;
+}
+.section-5{
+    height: 501px;
+    display: flex;
+    justify-content: center;
+}
+.section-5-row{
+    display: flex;
+}
+.section-5-col1{
+    background-color: black;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding-right: 21px;
+    position: relative;
+}
+.sec-5-innercol{
+    width: 298px;
+}
+.section-5-col1 img{
+    position: absolute;
+    left: 0;
+    top: 30px;
+}
+.sec-5-innercol h2{
+    font-family: var(--black);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    color: var(--white);
+}
+.sec-5-innercol button{
+    font-family: var(--text);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--red);
+    padding: 20px 40px;
+    border: unset;
+}
+.section-5-col2{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-5-col2 h2{
+    width: 377px;
+    font-family: var(--head);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 31px;
+    color: var(--black);
+
+}
+.section-5-col2 h4{
+    font-family: var(--text);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);
+    
+}
+.section-5-col{
+    border: 1px solid black ;
+}
+footer{
+    height: 200px;
+}
