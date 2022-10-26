@@ -79,6 +79,8 @@ nav {
     font-weight: 500;
 }
 .main__banner{
+    margin: 0px auto;
+    width: 1440px;
     height: 741px;
     background-image: url('img/Rectangle-2.png');
     background-position: center;
@@ -220,10 +222,6 @@ nav {
     display: flex;
     justify-content: center;
     height: 591px;
-    background-image: url('img/Rectangle 83.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 .section-4-row{
     height: 100%;
@@ -231,6 +229,10 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url('img/Rectangle 83.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .section-4-col{
     width: 892px;
@@ -279,21 +281,20 @@ nav {
     background-color: black;
     width: 55%;
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
     justify-content: center;
-    padding-right: 21px;
     position: relative;
 }
-.sec-5-innercol{
-    width: 298px;
+.sec-5-innercol1{
+    width: 60%;
 }
-.section-5-col1 img{
-    position: absolute;
-    left: 0;
-    top: 30px;
+.sec-5-innercol2{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
-.sec-5-innercol h2{
+.sec-5-innercol2 h2{
     font-family: var(--head);
     font-style: normal;
     font-weight: 700;
@@ -301,7 +302,7 @@ nav {
     line-height: 111%;
     color: var(--white);
 }
-.sec-5-innercol button{
+.sec-5-innercol2 button{
     font-family: var(--text);
     font-style: normal;
     font-weight: 500;
@@ -316,6 +317,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: #F1F3F4;
 }
 .section-5-col2 h2{
     width: 377px;
@@ -336,9 +338,6 @@ nav {
     color: var(--black);
     
 }
-.section-5-col{
-    border: 1px solid black ;
-}
 footer{
     height: 200px;
 }
@@ -346,6 +345,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 146px;
 }
 .section-6-row1{
     margin-top: 166px;
@@ -361,11 +361,16 @@ footer{
     color: var(--text);
 }
 .section-6-row2{
+    margin: auto;
+    max-width: 1440px;
+}
+.section-6-innerrow{
     display: flex;
     justify-content: center;
+
 }
 .section-6-col{
-    width: 25%;
+    width: 280px;
     padding: 20px;
 }
 .product_img{
@@ -375,6 +380,9 @@ footer{
 }
 .product_img img{
     width: 100%;
+}
+.product_content{
+    padding-right: 30px;
 }
 .content__location{
     font-family: var(--head);
@@ -395,10 +403,158 @@ footer{
 }
 .product__price{
     font-family: var(--text);
-    margin-top: 10px
+    margin-top: 10px;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
     color: var(--red);
 }
+.section-7{
+    height: 590px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.section-7-row{
+    height: 100%;
+    width: 1180px;
+}
+.sec-7-col1{
+    width: 45%;
+    background-image: url('img/Rectangle 84.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sec-7-col2{
+    width: 55%;
+    background-color: var(--red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-7-col2 h2{
+    font-family: var(--head);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--white);
+}
+.sec-7-col2 button{
+    font-family: var(--text);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--red);
+    padding: 20px 40px;
+    border: unset;
+    margin-top: 60px;
+}
+.btn__shop{
+    font-family: var(--text);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--red);
+    padding: 20px 40px;
+    border: unset;
+}
+.section-8{
+    height: 471px;
+}
+.sec-8-row{
+    height: 100%;
+}
+.sec-8-col{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #292733;
+    padding-left: 125px;
+}
+.sec-8-innercol{
+    width: 60%;
+}
+.sec-8-col h3{
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--white);
+}
+.sec-8-col h2{
+    font-family: var(--head);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    color: var(--white);
+    margin-top: 5px;
+    margin-bottom: 24px;
+}
+.sec-8-col1{
+    background-image: url('img/Rectangle 17.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sec-8-col2{
+    background-image: url('img/Rectangle 18.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section--center-row{
+    display: flex;
+    justify-content: center;
+}
+.section-9{
+    height: 638px;
+}
+.sec-9-row{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('img/Rectangle 2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sec-9-col{
+    width: 70%;
+}
+.sec-9-col h4{
+    font-family: var(--text);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white);
+}
+.sec-9-col h2{
+    font-family: var(--head);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 105.5%;
+    color: var(--white);
+    margin: 17px 0px;
+}
+.sec-9-col p{
+    font-family: var(--text);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--white);
+}
+
+
+
